@@ -11,9 +11,12 @@ func isPrime(n: Int) -> Bool {
         return true
     }
 
+    //This while loop starts from n: 4
     var num = 2
-    while num*num <= n {
-        if n % num == 0 {
+    while num*num <= n
+    {
+        if n % num == 0
+        {
             return false
         }
         num += 1
@@ -21,10 +24,16 @@ func isPrime(n: Int) -> Bool {
     return true
 }
 
-isPrime(n: 2) //true
-isPrime(n: 3) //true
-isPrime(n: 10) //false
-isPrime(n: 13) //true
+// In while loop
+isPrime(n: 4) // num:2, n:4 --> 4%2==0 --> return false --> num:2
+isPrime(n: 5) // num:2, n:5 --> 5%4!=0 --> num:3 --> go back to beginning of while loop --> 9<=5 is false --> Ends while loop --> return true
+isPrime(n: 6)
+isPrime(n: 7)
+isPrime(n: 8)
+isPrime(n: 9)
+isPrime(n: 10)
+isPrime(n: 13)
+
 
 print("isPrime(n:2) = " + String(isPrime(n: 2))) // true
 print("isPrime(n:3) = " + String(isPrime(n: 3))) // true
