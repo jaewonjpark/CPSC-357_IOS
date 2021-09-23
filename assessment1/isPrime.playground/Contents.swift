@@ -21,11 +21,12 @@ func isPrime(n: Int) -> Bool {
     return true
 }
 
-isPrime(n: 2) // true
-isPrime(n: 3) // true
-isPrime(n: 10) // false
-isPrime(n: 13) // true
+isPrime(n: 2) //true
+isPrime(n: 3) //true
+isPrime(n: 10) //false
+isPrime(n: 13) //true
 
-/*:
- function isPrime
- 
+print("isPrime(n:2) = " + String(isPrime(n: 2))) // true
+print("isPrime(n:3) = " + String(isPrime(n: 3))) // true
+print("isPrime(n:10) = " + String(isPrime(n: 10))) // false
+print("isPrime(n:13) = " + String(isPrime(n: 13))) // true
