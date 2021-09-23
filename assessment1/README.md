@@ -12,6 +12,7 @@
 
 ### 3) Known errors
 - No specific errors in codes, but when pushing files to Github, ._ file automatically creates.
+- Rich Text file (RTF) turns out weird after pushing to GitHub.
 
 ### 4) References
 - Apple Books 
